@@ -46,3 +46,4 @@ puts one.car
 puts two.type
 puts two.rates
 puts two.metro
+puts two.freeze
