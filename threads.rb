@@ -32,6 +32,40 @@ puts y.join
 
 puts "Thread joined"
 
+# puts Thread.main
+# puts Thread.list
 
+end
+
+class Mainthread
+    #create main thread
+    @main = Thread.main
+    puts @main
+
+    puts ""
+    # create new thread
+    a1 = Thread.new { sleep 100 }
+    list_thread = Thread.list
+    list_thread.each {|t| p t }
+    puts "Current thread="+Thread.current.to_s
+
+    # create new thread
+    a2 = Thread.new { sleep 200 }
+    list_thread = Thread.list
+    list_thread.each {|t| p t }
+    puts "Current thread=" + Thread.current.to_s
+
+    Thread.kill(a1)
+
+    Thread.pass
+
+    Thread.kill(a2)
+
+    list_thread = Thread.list
+    list_thread.each {|t| p t}
+
+    puts list_thread.each {|t| p t}
+
+    Thread.exit
 end
 
