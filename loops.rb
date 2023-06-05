@@ -1,8 +1,11 @@
 class Runloops
-    i = 5
+    a = readline.chomp
+    i = a
+
+    puts a
 
     while true
-      if i > 2
+      if i > 5
         puts "welcome"
         break
       end

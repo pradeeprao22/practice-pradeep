@@ -6,8 +6,8 @@ class Catch
 
         #using throw statement
         throw :value_e if a == "!"
+        
         return a
-
 
         catch :value_e do
 

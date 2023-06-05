@@ -33,7 +33,3 @@ puts queue.dequeue
 
 puts queue.empty?
 puts queue.size
-
-
-
-
