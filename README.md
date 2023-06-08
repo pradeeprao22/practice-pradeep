@@ -10,6 +10,7 @@ QUEUE
 
 #Design pattern
 Singeltone
+Concurrency(Multitasking)
 
 #OOPS Concepts
 Inheritence
