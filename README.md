@@ -11,6 +11,7 @@ QUEUE
 #Design pattern
 Singeltone
 Concurrency(Multitasking)
+Async/Await
 
 #OOPS Concepts
 Inheritence
