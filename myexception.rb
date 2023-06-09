@@ -1,11 +1,12 @@
-class MyException < StandardError
-    attr_accessor :myobject
+module MyException
+    class MyException < StandardError
+        attr_accessor :myobject
 
-    def initialize(myobject)
-        @myobject = myobject
+        def initialize(myobject)
+            @myobject = myobject
+        end
+
     end
-
-end
 
     begin 
 
@@ -15,3 +16,4 @@ end
         puts e.message
         puts e.myobject
     end
+end
