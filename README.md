@@ -7,6 +7,7 @@ HASH
 LINKED LIST
 STACK
 QUEUE
+MATRIX
 
 #Design pattern
 Singeltone
